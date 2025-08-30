@@ -44,7 +44,7 @@ function match(idx){
             setTimeout((levelup), 1000);
         }
     }else{
-        h2.innerHTML=`Game Over..! Your score was <b>${level*10}</b> <br>Press any key to start again`
+        h2.innerHTML=`Game Over..! Your score is <b>${level*10}</b> <br>Press any key to start again`
         document.querySelector("body").style.backgroundColor="red"
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor="white";
